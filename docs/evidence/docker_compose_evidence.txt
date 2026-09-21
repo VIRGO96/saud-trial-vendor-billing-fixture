@@ -1,0 +1,116 @@
+=== DOCKER COMPOSE DEPLOYMENT & HEALTH AUDIT ===
+
+1. Docker Compose Services Status (docker compose ps):
+---------------------------------------------------------------------------
+NAME                      IMAGE                                                                     COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+vendor-billing-backend    sha256:7bda96ed930d9388532f206030136bb5a26d26785a30d2ef6a7c779b2fe70851   "uvicorn app.main:ap…"   backend    19 minutes ago   Up 19 minutes (healthy)   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+vendor-billing-frontend   dev-trial-vendor-billing-fixtures-frontend                                "docker-entrypoint.s…"   frontend   11 seconds ago   Up 6 seconds              0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+
+2. Backend API Health Check (curl http://localhost:8000/api/health):
+---------------------------------------------------------------------------
+HTTP/1.1 200 OK
+date: Sat, 19 Sep 2026 12:04:21 GMT
+server: uvicorn
+content-length: 33
+content-type: application/json
+
+{"status":"ok","version":"1.0.0"}
+
+3. Containerized Pytest Backend Test Suite (Python 3.12-slim):
+Command: docker compose exec backend pytest tests -v --cov=app
+---------------------------------------------------------------------------
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3.12
+cachedir: .pytest_cache
+rootdir: /app/backend
+configfile: pytest.ini
+plugins: anyio-4.15.1, cov-7.1.0
+collecting ... collected 44 items
+
+tests/test_api.py::test_health_check PASSED                              [  2%]
+tests/test_api.py::test_preview_and_upload_flow PASSED                   [  4%]
+tests/test_api.py::test_compare_export_api PASSED                        [  6%]
+tests/test_api.py::test_vendor_create_and_invoice_delete PASSED          [  9%]
+tests/test_api.py::test_vendor_create_and_validation_errors PASSED       [ 11%]
+tests/test_api.py::test_seed_and_admin_guards PASSED                     [ 13%]
+tests/test_api.py::test_seeding_service PASSED                           [ 15%]
+tests/test_api.py::test_no_descriptions_start_with_digit_space PASSED    [ 18%]
+tests/test_comparison.py::test_sherweb_ground_truth_diff PASSED          [ 20%]
+tests/test_comparison.py::test_self_comparison_invariance PASSED         [ 22%]
+tests/test_comparison.py::test_swap_symmetry PASSED                      [ 25%]
+tests/test_comparison.py::test_comparison_dict_items PASSED              [ 27%]
+tests/test_comparison.py::test_comparison_usage_items PASSED             [ 29%]
+tests/test_csv_parser.py::test_sherweb_july_csv_parsing PASSED           [ 31%]
+tests/test_csv_parser.py::test_sherweb_august_csv_parsing PASSED         [ 34%]
+tests/test_csv_parser.py::test_csv_parser_tolerances PASSED              [ 36%]
+tests/test_csv_parser.py::test_csv_header_alias_mapping PASSED           [ 38%]
+tests/test_csv_parser.py::test_csv_parser_errors PASSED                  [ 40%]
+tests/test_csv_parser.py::test_csv_parser_can_parse_edge_cases PASSED    [ 43%]
+tests/test_csv_parser.py::test_csv_parser_invalid_numeric_row_warning PASSED [ 45%]
+tests/test_csv_parser.py::test_csv_parser_decoding_and_blank_rows PASSED [ 47%]
+tests/test_export.py::test_export_csv_structure PASSED                   [ 50%]
+tests/test_export.py::test_export_xlsx_structure PASSED                  [ 52%]
+tests/test_models_and_db.py::test_db_models_and_decimal_storage PASSED   [ 54%]
+tests/test_models_and_db.py::test_registry_resolution PASSED             [ 56%]
+tests/test_mutation.py::test_mutation_quantity_change PASSED             [ 59%]
+tests/test_mutation.py::test_mutation_price_change PASSED                [ 61%]
+tests/test_mutation.py::test_mutation_remove_item PASSED                 [ 63%]
+tests/test_mutation.py::test_mutation_add_item PASSED                    [ 65%]
+tests/test_mutation.py::test_mutation_credit_row_adjustment PASSED       [ 68%]
+tests/test_mutation.py::test_mutation_row_reordering PASSED              [ 70%]
+tests/test_no_floats.py::test_zero_floats_in_financial_paths PASSED      [ 72%]
+tests/test_pdf_parser.py::test_powerdmarc_real_pdf_parsing PASSED        [ 75%]
+tests/test_pdf_parser.py::test_powerdmarc_synthetic_pdf_comparison PASSED [ 77%]
+tests/test_pdf_parser.py::test_pdf_match_key_normalization PASSED        [ 79%]
+tests/test_pdf_parser.py::test_pdf_registry_dispatch PASSED              [ 81%]
+tests/test_pdf_parser.py::test_pdf_parser_errors PASSED                  [ 84%]
+tests/test_pdf_parser.py::test_pdf_parser_decimal_parsing_helpers PASSED [ 86%]
+tests/test_parse_pdf_date_formats PASSED                                 [ 88%]
+tests/test_pdf_parser.py::test_pdf_parser_can_parse_branches PASSED      [ 90%]
+tests/test_pdf_parser.py::test_pdf_hash_column_never_in_description_or_match_key PASSED [ 93%]
+tests/test_pdf_parser.py::test_pdf_extra_item_inserted_above_plan_and_reordering PASSED [ 95%]
+tests/test_pdf_parser.py::test_pdf_parser_extended_branches PASSED       [ 97%]
+tests/test_samples_integrity.py::test_samples_sha256_integrity PASSED    [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+app/__init__.py                  0      0   100%
+app/api/__init__.py              4      0   100%
+app/api/comparison.py           50      4    92%   21, 25, 36, 40
+app/api/invoices.py            120     18    85%   29, 31, 38-41, 96, 98, 105-106, 145-158, 255, 275, 283, 289
+app/api/schemas.py             132      0   100%
+app/api/vendors.py              70      3    96%   19-21
+app/db/__init__.py               0      0   100%
+app/db/custom_types.py          17      3    82%   17-19
+app/db/database.py              15      4    73%   13-17
+app/db/models.py                54      0   100%
+app/main.py                     30      4    87%   20-21, 52-53
+app/parsers/__init__.py          5      0   100%
+app/parsers/base.py             57      2    96%   64, 69
+app/parsers/csv_parser.py      145      9    94%   42-43, 91-92, 97-98, 196, 203, 207
+app/parsers/pdf_parser.py      203      9    96%   111-112, 248, 257, 274, 276, 278-279, 310
+app/parsers/registry.py         29      3    90%   23-24, 27
+app/services/__init__.py         2      0   100%
+app/services/comparison.py     163      0   100%
+app/services/exporter.py       121      0   100%
+app/services/seed.py            51      1    98%   51
+----------------------------------------------------------
+TOTAL                         1268     60    95%
+======================= 44 passed, 2 warnings in 11.58s ========================
+
+4. Live Playwright Smoke Test Execution:
+Command: npx playwright test --config=playwright.live.config.ts
+---------------------------------------------------------------------------
+Running 6 tests using 1 worker
+
+  ok 1 [chromium] › e2e\smoke.spec.ts:32:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 01: Overview Dashboard renders KPIs, vendor cards, and passes WCAG 2.1 AA in Light & Dark modes (2.9s)
+  ok 2 [chromium] › e2e\smoke.spec.ts:78:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 02: Vendor detail and invoice line items pages render and pass WCAG 2.1 AA (2.9s)
+  ok 3 [chromium] › e2e\smoke.spec.ts:118:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 03: Reconciliation diff view displays 6 changes, +$620.46, and drilldown (2.9s)
+  ok 4 [chromium] › e2e\smoke.spec.ts:165:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 04: Export reconciliation to CSV & XLSX without state mutations (6.6s)
+  ok 5 [chromium] › e2e\smoke.spec.ts:210:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 05: Mobile viewport responsiveness (375px) with zero horizontal overflow (358ms)
+  ok 6 [chromium] › e2e\smoke.spec.ts:232:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 06: PowerDMARC reconciliation comparison shows +$148.00, "Test fixture" badge, Partner Plan +$50.00 and Additional Domains +$98.00 (1.8s)
+
+  6 passed (20.1s)

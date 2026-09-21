@@ -1,0 +1,20 @@
+
+Running 15 tests using 1 worker
+
+  ok  1 [chromium] › e2e\journey.spec.ts:40:7 › Vendor Billing Reconciliation - Clean Database User Journey › Complete user journey from clean slate to multi-vendor period reconciliation (5.2s)
+  ok  2 [chromium] › e2e\reconciliation.spec.ts:50:7 › Vendor Billing Reconciliation E2E Suite › 01: Vendors Dashboard renders correctly and passes a11y in Light & Dark modes (1.7s)
+  ok  3 [chromium] › e2e\reconciliation.spec.ts:96:7 › Vendor Billing Reconciliation E2E Suite › 02: Invoice Upload Modal workflow, preview, and a11y in Light & Dark modes (2.4s)
+  ok  4 [chromium] › e2e\reconciliation.spec.ts:152:7 › Vendor Billing Reconciliation E2E Suite › 03: Error handling for wrong file type, corrupt PDF, and duplicate upload conflict with Replace flow (1.9s)
+  ok  5 [chromium] › e2e\reconciliation.spec.ts:229:7 › Vendor Billing Reconciliation E2E Suite › 04: Period-over-period reconciliation comparison (Sherweb July vs Aug 2026) (3.5s)
+  ok  6 [chromium] › e2e\reconciliation.spec.ts:317:7 › Vendor Billing Reconciliation E2E Suite › 05: Export reconciliation to CSV and XLSX and assert parsed contents (6.5s)
+  ok  7 [chromium] › e2e\reconciliation.spec.ts:383:7 › Vendor Billing Reconciliation E2E Suite › 06: PowerDMARC PDF multi-month reconciliation with Test fixture badge (708ms)
+  ok  8 [chromium] › e2e\reconciliation.spec.ts:413:7 › Vendor Billing Reconciliation E2E Suite › 07: Vendor Detail and Line Items pages render and pass a11y in Light & Dark modes (4.8s)
+  ok  9 [chromium] › e2e\reconciliation.spec.ts:463:7 › Vendor Billing Reconciliation E2E Suite › 08: Mobile viewport responsiveness (375px) with horizontal overflow check (1.1s)
+  ok 10 [chromium] › e2e\smoke.spec.ts:32:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 01: Overview Dashboard renders KPIs, vendor cards, and passes WCAG 2.1 AA in Light & Dark modes (1.6s)
+  ok 11 [chromium] › e2e\smoke.spec.ts:78:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 02: Vendor detail and invoice line items pages render and pass WCAG 2.1 AA (3.8s)
+  ok 12 [chromium] › e2e\smoke.spec.ts:118:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 03: Reconciliation diff view displays 6 changes, +$620.46, and drilldown (2.0s)
+  ok 13 [chromium] › e2e\smoke.spec.ts:165:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 04: Export reconciliation to CSV & XLSX without state mutations (6.2s)
+  ok 14 [chromium] › e2e\smoke.spec.ts:210:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 05: Mobile viewport responsiveness (375px) with zero horizontal overflow (421ms)
+  ok 15 [chromium] › e2e\smoke.spec.ts:232:7 › Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite › 06: PowerDMARC reconciliation comparison shows +$148.00, "Test fixture" badge, Partner Plan +$50.00 and Additional Domains +$98.00 (1.7s)
+
+  15 passed (46.5s)

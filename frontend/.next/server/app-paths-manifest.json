@@ -1,0 +1,7 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/vendors/[id]/compare/page": "app/vendors/[id]/compare/page.js",
+  "/invoices/[id]/page": "app/invoices/[id]/page.js",
+  "/vendors/[id]/page": "app/vendors/[id]/page.js"
+}

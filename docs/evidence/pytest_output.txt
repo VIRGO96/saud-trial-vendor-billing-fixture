@@ -1,0 +1,98 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- D:\Client Repos\dev-trial-vendor-billing-fixtures\backend\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Client Repos\dev-trial-vendor-billing-fixtures\backend
+configfile: pytest.ini
+plugins: anyio-4.15.1, cov-7.1.0
+collecting ... collected 45 items
+
+backend\tests\test_api.py::test_health_check PASSED                      [  2%]
+backend\tests\test_api.py::test_preview_and_upload_flow PASSED           [  4%]
+backend\tests\test_api.py::test_compare_export_api PASSED                [  6%]
+backend\tests\test_api.py::test_vendor_create_and_invoice_delete PASSED  [  8%]
+backend\tests\test_api.py::test_vendor_create_and_validation_errors PASSED [ 11%]
+backend\tests\test_api.py::test_seed_and_admin_guards PASSED             [ 13%]
+backend\tests\test_api.py::test_seeding_service PASSED                   [ 15%]
+backend\tests\test_api.py::test_no_descriptions_start_with_digit_space PASSED [ 17%]
+backend\tests\test_comparison.py::test_sherweb_ground_truth_diff PASSED  [ 20%]
+backend\tests\test_comparison.py::test_self_comparison_invariance PASSED [ 22%]
+backend\tests\test_comparison.py::test_swap_symmetry PASSED              [ 24%]
+backend\tests\test_comparison.py::test_comparison_dict_items PASSED      [ 26%]
+backend\tests\test_comparison.py::test_comparison_usage_items PASSED     [ 28%]
+backend\tests\test_csv_parser.py::test_sherweb_july_csv_parsing PASSED   [ 31%]
+backend\tests\test_csv_parser.py::test_sherweb_august_csv_parsing PASSED [ 33%]
+backend\tests\test_csv_parser.py::test_sherweb_row_kind_counts_and_rules PASSED [ 35%]
+backend\tests\test_csv_parser.py::test_csv_parser_tolerances PASSED      [ 37%]
+backend\tests\test_csv_parser.py::test_csv_header_alias_mapping PASSED   [ 40%]
+backend\tests\test_csv_parser.py::test_csv_parser_errors PASSED          [ 42%]
+backend\tests\test_csv_parser.py::test_csv_parser_can_parse_edge_cases PASSED [ 44%]
+backend\tests\test_csv_parser.py::test_csv_parser_invalid_numeric_row_warning PASSED [ 46%]
+backend\tests\test_csv_parser.py::test_csv_parser_decoding_and_blank_rows PASSED [ 48%]
+backend\tests\test_export.py::test_export_csv_structure PASSED           [ 51%]
+backend\tests\test_export.py::test_export_xlsx_structure PASSED          [ 53%]
+backend\tests\test_models_and_db.py::test_db_models_and_decimal_storage PASSED [ 55%]
+backend\tests\test_models_and_db.py::test_registry_resolution PASSED     [ 57%]
+backend\tests\test_mutation.py::test_mutation_quantity_change PASSED     [ 60%]
+backend\tests\test_mutation.py::test_mutation_price_change PASSED        [ 62%]
+backend\tests\test_mutation.py::test_mutation_remove_item PASSED         [ 64%]
+backend\tests\test_mutation.py::test_mutation_add_item PASSED            [ 66%]
+backend\tests\test_mutation.py::test_mutation_credit_row_adjustment PASSED [ 68%]
+backend\tests\test_mutation.py::test_mutation_row_reordering PASSED      [ 71%]
+backend\tests\test_no_floats.py::test_zero_floats_in_financial_paths PASSED [ 73%]
+backend\tests\test_pdf_parser.py::test_powerdmarc_real_pdf_parsing PASSED [ 75%]
+backend\tests\test_pdf_parser.py::test_powerdmarc_synthetic_pdf_comparison PASSED [ 77%]
+backend\tests\test_pdf_parser.py::test_pdf_match_key_normalization PASSED [ 80%]
+backend\tests\test_pdf_parser.py::test_pdf_registry_dispatch PASSED      [ 82%]
+backend\tests\test_pdf_parser.py::test_pdf_parser_errors PASSED          [ 84%]
+backend\tests\test_pdf_parser.py::test_pdf_parser_decimal_parsing_helpers PASSED [ 86%]
+backend\tests\test_pdf_parser.py::test_parse_pdf_date_formats PASSED     [ 88%]
+backend\tests\test_pdf_parser.py::test_pdf_parser_can_parse_branches PASSED [ 91%]
+backend\tests\test_pdf_parser.py::test_pdf_hash_column_never_in_description_or_match_key PASSED [ 93%]
+backend\tests\test_pdf_parser.py::test_pdf_extra_item_inserted_above_plan_and_reordering PASSED [ 95%]
+backend\tests\test_pdf_parser.py::test_pdf_parser_extended_branches PASSED [ 97%]
+backend\tests\test_samples_integrity.py::test_samples_sha256_integrity PASSED [100%]C:\Users\Lenovo\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\collections\__init__.py:453: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x0000014AE8390220>
+  @classmethod
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+D:\Client Repos\dev-trial-vendor-billing-fixtures\backend\.venv\Lib\site-packages\_pytest\unraisableexception.py:33: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x0000014AE8390E50>
+  gc.collect()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+
+
+============================== warnings summary ===============================
+backend\.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\Client Repos\dev-trial-vendor-billing-fixtures\backend\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+backend\.venv\Lib\site-packages\starlette\testclient.py:53
+  D:\Client Repos\dev-trial-vendor-billing-fixtures\backend\.venv\Lib\site-packages\starlette\testclient.py:53: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = Callable[[], AbstractContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.0-final-0 _______________
+
+Name                                 Stmts   Miss  Cover   Missing
+------------------------------------------------------------------
+backend\app\__init__.py                  0      0   100%
+backend\app\api\__init__.py              4      0   100%
+backend\app\api\comparison.py           50      4    92%   21, 25, 36, 40
+backend\app\api\invoices.py            120     18    85%   29, 31, 38-41, 96, 98, 105-106, 145-158, 255, 275, 283, 289
+backend\app\api\schemas.py              67      0   100%
+backend\app\api\vendors.py              70      1    99%   21
+backend\app\db\__init__.py               0      0   100%
+backend\app\db\custom_types.py          17      3    82%   17-19
+backend\app\db\database.py              15      4    73%   13-17
+backend\app\db\models.py                54      0   100%
+backend\app\main.py                     30      4    87%   20-21, 52-53
+backend\app\parsers\__init__.py          5      0   100%
+backend\app\parsers\base.py             32      2    94%   64, 69
+backend\app\parsers\csv_parser.py      145      9    94%   42-43, 91-92, 97-98, 196, 203, 207
+backend\app\parsers\pdf_parser.py      203      9    96%   111-112, 248, 257, 274, 276, 278-279, 310
+backend\app\parsers\registry.py         29      3    90%   23-24, 27
+backend\app\services\__init__.py         2      0   100%
+backend\app\services\comparison.py     123      0   100%
+backend\app\services\exporter.py       121      0   100%
+backend\app\services\seed.py            53      2    96%   51, 53
+------------------------------------------------------------------
+TOTAL                                 1140     59    95%
+======================= 45 passed, 2 warnings in 4.72s ========================

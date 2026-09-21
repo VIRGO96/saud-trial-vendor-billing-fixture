@@ -1,0 +1,25 @@
+=== SAMPLES SHA-256 INTEGRITY AUDIT ===
+Directory: D:\Client Repos\dev-trial-vendor-billing-fixtures\samples
+---------------------------------------------------------------------------
+File:     README.md
+Computed: 2233b9cd9b9ebe0991a992ca46ac725d342b06f635e212346ac69ecfb5955ef3
+Expected: 2233b9cd9b9ebe0991a992ca46ac725d342b06f635e212346ac69ecfb5955ef3
+Status:   MATCH [OK]
+
+File:     vendor-powerdmarc-2026-08.pdf
+Computed: b416d33e3a1f18d252e67b4d4a9279fb1fa3f916a71514b7c05691353e53ea1d
+Expected: b416d33e3a1f18d252e67b4d4a9279fb1fa3f916a71514b7c05691353e53ea1d
+Status:   MATCH [OK]
+
+File:     vendor-sherweb-2026-07.csv
+Computed: c6243a89457289eebde672e1ced14a84e5fbb480d9a3d5b07352e3c402b75426
+Expected: c6243a89457289eebde672e1ced14a84e5fbb480d9a3d5b07352e3c402b75426
+Status:   MATCH [OK]
+
+File:     vendor-sherweb-2026-08.csv
+Computed: 374064e2085747704dc6d6d8fe89e7a80d86185d3b97343a9023599f8095c7b2
+Expected: 374064e2085747704dc6d6d8fe89e7a80d86185d3b97343a9023599f8095c7b2
+Status:   MATCH [OK]
+
+---------------------------------------------------------------------------
+Audit Result: ALL SAMPLES VERIFIED

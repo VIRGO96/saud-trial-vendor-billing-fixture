@@ -1,0 +1,42 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: vendor-billing-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./vendor_billing.db
+      - SEED_DEMO=true
+      - ENABLE_ADMIN_ENDPOINTS=true
+      - SAMPLES_DIR=./samples
+      - FIXTURES_DIR=./fixtures
+    volumes:
+      - ./samples:/app/samples:ro
+      - ./fixtures:/app/fixtures
+      - backend_data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        BACKEND_URL: http://backend:8000
+    container_name: vendor-billing-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - BACKEND_URL=http://backend:8000
+      - NODE_ENV=production
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  backend_data:

@@ -1,0 +1,635 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "D:\\Client Repos\\dev-trial-vendor-billing-fixtures\\frontend\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--reporter=list,json"
+    ],
+    "configFile": "D:\\Client Repos\\dev-trial-vendor-billing-fixtures\\frontend\\playwright.config.ts",
+    "rootDir": "D:/Client Repos/dev-trial-vendor-billing-fixtures/frontend/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Client Repos/dev-trial-vendor-billing-fixtures/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Client Repos/dev-trial-vendor-billing-fixtures/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "journey.spec.ts",
+      "file": "journey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Vendor Billing Reconciliation - Clean Database User Journey",
+          "file": "journey.spec.ts",
+          "line": 14,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete user journey from clean slate to multi-vendor period reconciliation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5186,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:33.675Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bf222bad70f76648f722-ec4f475cb7f5f2f693c0",
+              "file": "journey.spec.ts",
+              "line": 40,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "reconciliation.spec.ts",
+      "file": "reconciliation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Vendor Billing Reconciliation E2E Suite",
+          "file": "reconciliation.spec.ts",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01: Vendors Dashboard renders correctly and passes a11y in Light & Dark modes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1734,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:39.335Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-991d4e9979c6a3596bf2",
+              "file": "reconciliation.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "02: Invoice Upload Modal workflow, preview, and a11y in Light & Dark modes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2444,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:41.435Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-6d37825e4c7fb66e1129",
+              "file": "reconciliation.spec.ts",
+              "line": 96,
+              "column": 7
+            },
+            {
+              "title": "03: Error handling for wrong file type, corrupt PDF, and duplicate upload conflict with Replace flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1869,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:43.903Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-1d0fa29fbd9ffd554a8f",
+              "file": "reconciliation.spec.ts",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "04: Period-over-period reconciliation comparison (Sherweb July vs Aug 2026)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3491,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:45.800Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-783dc7db46eddf6df534",
+              "file": "reconciliation.spec.ts",
+              "line": 229,
+              "column": 7
+            },
+            {
+              "title": "05: Export reconciliation to CSV and XLSX and assert parsed contents",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6484,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:49.310Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-dc958e11e14772549d45",
+              "file": "reconciliation.spec.ts",
+              "line": 317,
+              "column": 7
+            },
+            {
+              "title": "06: PowerDMARC PDF multi-month reconciliation with Test fixture badge",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 708,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:55.845Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-2f61f71b9003924c28bc",
+              "file": "reconciliation.spec.ts",
+              "line": 383,
+              "column": 7
+            },
+            {
+              "title": "07: Vendor Detail and Line Items pages render and pass a11y in Light & Dark modes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4827,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:43:56.587Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-a0a93ecd5313891e9d25",
+              "file": "reconciliation.spec.ts",
+              "line": 413,
+              "column": 7
+            },
+            {
+              "title": "08: Mobile viewport responsiveness (375px) with horizontal overflow check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1063,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:01.437Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6565ecb37ba2a832b80c-3bdecbfae44488844a46",
+              "file": "reconciliation.spec.ts",
+              "line": 463,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "smoke.spec.ts",
+      "file": "smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Vendor Billing Reconciliation - Non-Destructive Live Smoke Suite",
+          "file": "smoke.spec.ts",
+          "line": 13,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01: Overview Dashboard renders KPIs, vendor cards, and passes WCAG 2.1 AA in Light & Dark modes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1632,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:02.533Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-abd8f9d5ccc5456a180b",
+              "file": "smoke.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "02: Vendor detail and invoice line items pages render and pass WCAG 2.1 AA",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3823,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:04.185Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-af69744706e561aa36b8",
+              "file": "smoke.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "03: Reconciliation diff view displays 6 changes, +$620.46, and drilldown",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1975,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:08.028Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-31dd14b5ef120fb706f9",
+              "file": "smoke.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "04: Export reconciliation to CSV & XLSX without state mutations",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6188,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:10.027Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-de04905f3ee5ebc55832",
+              "file": "smoke.spec.ts",
+              "line": 165,
+              "column": 7
+            },
+            {
+              "title": "05: Mobile viewport responsiveness (375px) with zero horizontal overflow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 421,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:16.268Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-43b8ff58d73e35b55aac",
+              "file": "smoke.spec.ts",
+              "line": 210,
+              "column": 7
+            },
+            {
+              "title": "06: PowerDMARC reconciliation comparison shows +$148.00, \"Test fixture\" badge, Partner Plan +$50.00 and Additional Domains +$98.00",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1688,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-19T12:44:16.715Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-0aff7fbb83a1d92e4847",
+              "file": "smoke.spec.ts",
+              "line": 232,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-19T12:43:32.747Z",
+    "duration": 46469.764,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

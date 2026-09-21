@@ -1,0 +1,246 @@
+InvoiceNo,InvoicingDate,InvoicePeriodFrom,InvoicePeriodTo,Organization,Description,SKU,Qty,ListPrice,UnitPrice,LineTotal,Currency
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Exchange Online (Plan 2) (NCE) - Monthly,SW-P-O365-8-M1M,4,9.6,7.872,31.49,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Exchange Online Kiosk (NCE) - Monthly,SW-P-O365-10-M1M,1,2.4,1.968,1.97,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,16,26.4,21.648,346.37,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Microsoft Defender for Office 365 (Plan 1) (NCE) - Monthly,SW-P-O365-20-A-M1M,2,2.4,1.968,3.94,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Microsoft Entra ID P2 (NCE) - Monthly,SW-P-O365-2-M1M,1,12,9.84,9.84,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Alder Point,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,1,31.2,25.584,25.58,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,94.7374,1,0.95,90,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,12.72,10.4304,10.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,-1,12.72,8.07514838709677,-8.08,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,9.14167741935484,9.14,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,6,4.8,3.936,23.62,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,LastPass Bundle,SWLPBUNDLER,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Microsoft 365 Audio Conferencing (NCE) - Monthly,SW-P-O365-9-A-M1M,3,3,3,9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,8,8.4,6.888,55.1,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,1,26.4,21.648,21.65,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Microsoft Entra ID P2 (NCE) - Monthly,SW-P-O365-2-M1M,1,12,9.84,9.84,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Microsoft Intune Plan 1 (NCE) - Monthly,SW-P-O365-84-M1M,1,9.6,7.872,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Nimble CRM – NFR 100% Discount,SWNCRM-NFR,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Additional License of Office Protect - NFR 100% Discount,SWALOPR-NFR,12,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Additional License of Office Protect - NFR 100% Discount,SWALOPR-NFR,-1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab,Office Protect - NFR 100% Discount,SWOP365R02-NFR,30,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Beacon Freight,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,13,16.8,13.776,179.09,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Cobalt Dental,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,9,26.4,21.648,194.83,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Cobalt Dental,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,7.2,5.904,5.9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Cobalt Dental,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,-1,7.2,5.14219354838709,-5.14,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Cobalt Dental,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,8.4,5.99922580645161,6,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Driftwood Films,Microsoft 365 Business Basic Donation (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-220-M1M,11,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Driftwood Films,Microsoft 365 Business Standard (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-223-M1M,2,4.03,3.8285,7.66,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,1063.01247,1,0.95,1009.86,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,12.72,10.4304,10.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,-1,12.72,8.4116129032258,-8.41,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,9.52258064516129,9.52,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,1,4.8,3.936,3.94,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,8.4,6.888,6.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Microsoft Non-profit Segment Activation,SW-P-O365-NCENP,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Elm Street Law,Visio Plan 2 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-261-M1M,1,7.2,5.29548387096775,5.3,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Fathom Marine,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Fathom Marine,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,-1,14.4,3.42812903225806,-3.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Fathom Marine,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,18,12,9.84,177.12,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Fathom Marine,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,-18,12,1.90451612903226,-34.28,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Fathom Marine,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,2,26.4,21.648,43.3,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Fathom Marine,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,-2,26.4,0.69832258064516,-1.4,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,12,26.4,21.648,259.78,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,1,26.4,12.5698064516129,12.57,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,8.4,6.888,6.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Audio Conferencing includes dial-out to USA/CAN only (NCE) - Monthly,SW-P-O365-91-A-M1M,8,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA) (NCE) - Monthly,SW-P-O365-13-A-M1M,5,14.4,14.4,72,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA) (NCE) - Monthly,SW-P-O365-13-A-M1M,1,14.4,7.89677419354839,7.9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Phone Resource Account (NCE) - Monthly,SW-P-O365-26-A-M1M,10,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Phone Resource Account (NCE) - Monthly,SW-P-O365-26-A-M1M,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Phone Standard (NCE) - Monthly,SW-P-O365-25-A-M1M,2,12,9.84,19.68,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Phone Standard (NCE) - Monthly,SW-P-O365-25-A-M1M,1,12,5.39612903225806,5.4,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Premium (NCE) - Monthly - Disc.,SW-P-O365-115-M1M,1,12,9.84,9.84,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Microsoft Teams Shared Devices (NCE) - Monthly,SW-P-O365-4-M1M,1,9.6,7.872,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Bayview Clinic,Teams Phone with Calling Plan (country zone 1 - US) (NCE) - Monthly,SW-P-O365-35-A-M1M,11,20.4,20.4,224.4,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Azure Information Protection Premium P1 (NCE) - Monthly - Disc.,SW-P-O365-3-M1M,2,2.4,1.968,3.94,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,115.3655,1,0.95,109.6,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,12.72,10.4304,10.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,-1,12.72,8.74807741935484,-8.75,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,9.90348387096774,9.9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,10,26.4,21.648,216.48,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,16,15,12.3,196.8,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,-16,15,9.91935483870968,-158.71,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,16,16.8,11.1096774193548,177.75,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 E3 (NCE) - Monthly,SW-P-O365-17-M1M,1,43.2,35.424,35.42,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 E3 (NCE) - Monthly,SW-P-O365-17-M1M,-1,43.2,27.4250322580645,-27.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft 365 E3 (NCE) - Monthly,SW-P-O365-17-M1M,1,46.8,29.7104516129032,29.71,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,8.4,6.888,6.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Granite Ridge,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,-1,8.4,0.22219354838709,-0.22,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Halcyon Labs,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Halcyon Labs,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,20.72119,1,0.95,19.69,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Halcyon Labs,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Halcyon Labs,Microsoft Teams Essentials (NCE) - Monthly,SW-P-O365-85-M1M,2,4.8,3.936,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Azure Information Protection Premium P1 (NCE) - Monthly - Disc.,SW-P-O365-3-M1M,4,2.4,1.968,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,892.22144,1,0.95,847.61,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Dynamics 365 Business Central Essentials (NCE) - Monthly,SW-P-D365-11-M1M,8,96,81.6,652.8,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Dynamics 365 Business Central Team Members (NCE) - Monthly,SW-P-D365-14-M1M,1,9.6,8.16,8.16,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,3,12.72,10.4304,31.29,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,-3,12.72,8.74807741935484,-26.24,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,3,14.4,9.90348387096774,29.71,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Exchange Online (Plan 2) (NCE) - Monthly,SW-P-O365-8-M1M,1,9.6,7.872,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,23,9.96,8.1672,187.85,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,-23,9.96,6.32299354838709,-145.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,22,12,7.61806451612903,167.6,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,23,7.2,5.904,135.79,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,-23,7.2,4.95174193548387,-113.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,18,8.4,5.77703225806452,103.99,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,56,26.4,21.648,1212.29,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,-6,26.4,10.4748387096774,-62.85,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,1,26.4,4.88825806451613,4.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,1,26.4,2.79329032258065,2.79,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,1,26.4,0.69832258064516,0.7,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,7,15,12.3,86.1,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,-7,15,9.52258064516129,-66.66,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,5,16.8,10.6652903225807,53.33,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft 365 E5 (NCE) - Monthly,SW-P-O365-19-M1M,1,72,28.5677419354839,28.57,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft Intune Plan 1 Device (NCE) - Monthly,SW-P-O365-28-M1M,1,3.24,2.6568,2.66,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft Teams Audio Conferencing includes dial-out to USA/CAN only (NCE) - Monthly,SW-P-O365-91-A-M1M,12,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft Teams Audio Conferencing includes dial-out to USA/CAN only (NCE) - Monthly,SW-P-O365-91-A-M1M,-1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft Teams Domestic Calling Plan (customers in US/UK/CA) (NCE) - Monthly,SW-P-O365-108-A-M1M,1,9.6,7.872,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft Teams Phone Resource Account (NCE) - Monthly,SW-P-O365-26-A-M1M,11,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Microsoft Teams Shared Devices (NCE) - Monthly,SW-P-O365-4-M1M,1,9.6,7.872,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,1,27.6,22.632,22.63,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,-1,27.6,17.5215483870968,-17.52,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,1,31.2,19.8069677419355,19.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Planner and Project Plan 3 (NCE) - Monthly,SW-P-O365-39-M1M,1,36,29.52,29.52,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Power Automate Premium (NCE) - Monthly,SW-P-D365-88-M1M,1,18,15.3,15.3,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Power BI Premium Per User (NCE) - Monthly,SW-P-D365-94-M1M,3,28.8,24.48,73.44,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Teams Phone with Calling Plan (country zone 1 - US) (NCE) - Monthly,SW-P-O365-35-A-M1M,12,20.4,20.4,244.8,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Teams Phone with Calling Plan (country zone 1 - US) (NCE) - Monthly,SW-P-O365-35-A-M1M,-1,20.4,15.7935483870968,-15.79,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kestrel Leather Inc,Visio Plan 2 (NCE) - Monthly,SW-P-O365-45-M1M,1,18,14.76,14.76,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Northwind Ent. JHLA,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Northwind Ent. JHLA,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,307.9493,1,0.95,292.55,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Northwind Ent. JHLA,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Meridian Live,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Meridian Live,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,1,12,9.84,9.84,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Meridian Live,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,24,8.4,6.888,165.31,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Meridian Live,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,249,26.4,21.648,5390.35,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Meridian Live,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,1,26.4,18.1563870967742,18.16,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Ironwood Capital,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Ironwood Capital,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,13,26.4,21.648,281.42,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Ironwood Capital,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,-2,26.4,11.1731612903226,-22.35,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Ironwood Capital,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,5,26.4,2.09496774193548,10.47,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Juniper Foods,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Juniper Foods,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,5,14.4,11.808,59.04,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Juniper Foods,Office 365 E5 (NCE) - Monthly,SW-P-O365-32-M1M,4,49.2,40.344,161.38,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,12.95108,1,0.95,12.3,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Exchange Online (Plan 2) (NCE) - Monthly,SW-P-O365-8-M1M,5,9.6,7.872,39.36,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Audio Conferencing (NCE) - Monthly,SW-P-O365-9-A-M1M,1,3,3,3,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,8,7.2,5.904,47.23,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,-8,7.2,4.57083870967742,-36.57,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,8,8.4,5.33264516129032,42.66,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Premium (NCE) - Annual paid monthly,SW-P-O365-15-M1Y,23,23.1,18.942,435.67,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,3,15,12.3,36.9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,-3,15,9.52258064516129,-28.57,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,3,16.8,10.6652903225807,32,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA) (NCE) - Monthly,SW-P-O365-13-A-M1M,20,14.4,14.4,288,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft Teams International Calling Plan (for SMB) (NCE) - Monthly,SW-P-O365-19-A-M1M,2,14.4,11.808,23.62,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft Teams Phone Resource Account (NCE) - Monthly,SW-P-O365-26-A-M1M,10,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Harbor 360,Microsoft Teams Phone Standard (NCE) - Monthly,SW-P-O365-25-A-M1M,18,12,9.84,177.12,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Kite Architects,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,2,4.8,3.936,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Lumen Optics,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,8.4,6.888,6.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Azure Plan Usage (Billed) - Azure Plan Usage (Billed),SWAZPLU02,611.48842,1,0.95,580.91,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,"For a limited time, partners will receive up to 15 percent off the net partner price of Microsoft 365 Copilot Business. Organizations that are new to or looking to expand Microsoft 365 Copilot Business are a perfect fit for this introductory offer.",COPILOTBUS1526Y1Y,1,,-35.912140274,-35.91,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Microsoft 365 Copilot Business (NCE) - Yearly,SW-P-O365-323-A-Y1Y,1,252,219.586821041096,219.59,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Microsoft Entra ID P2 (NCE) - Monthly,SW-P-O365-2-M1M,6,10.8,8.856,53.14,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Microsoft Entra ID P2 (NCE) - Monthly,SW-P-O365-2-M1M,-6,10.8,7.71329032258065,-46.28,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Microsoft Entra ID P2 (NCE) - Monthly,SW-P-O365-2-M1M,6,12,8.57032258064516,51.42,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Customers who have purchased the Microsoft 365 Business Premium and Microsoft 365 Copilot Business bundled promotion or Microsoft 365 Copilot are eligible to receive Microsoft Purview Suite for Business Premium at a 50 percent discount.,PURVIEWBUSPRM5026Y1Y,1,,-59.8356164384,-59.84,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Maple Court,Microsoft Purview Suite for Microsoft 365 Business Premium (NCE) - Yearly,SW-P-O365-328-A-Y1Y,1,120,109.170410958904,109.17,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab Studio,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,2,4.8,3.936,7.87,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab Studio,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,4,8.4,6.888,27.55,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Internal Lab Studio,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,3,16.8,13.776,41.33,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,1,4.8,3.936,3.94,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,M365 Business Standard (NCE) - Monthly,SWO365BPRR-M1M,2,16.8,13.776,27.55,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,10,8.4,6.888,68.88,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,18,15,12.3,221.4,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,-18,15,9.52258064516129,-171.41,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Nimbus Records,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,18,16.8,10.6652903225807,191.98,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Orchard Vet,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,2,8.4,6.888,13.78,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Orchard Vet,Microsoft Teams Phone Standard (NCE) - Monthly,SW-P-O365-25-A-M1M,16,12,9.84,157.44,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Rosewood Pictures,Microsoft 365 Business Standard (NCE) - Yearly,SW-P-O365-16-Y1Y,5,168,137.76,688.8,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,3,4.8,3.936,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Exchange Online (Plan 2) (NCE) - Monthly,SW-P-O365-8-M1M,2,9.6,7.872,15.74,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,2,7.2,5.904,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,-2,7.2,5.33264516129032,-10.67,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,2,8.4,6.22141935483871,12.44,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,2,27.6,22.632,45.26,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,-2,27.6,20.4418064516129,-40.88,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Pinecrest Foundation,Office 365 E3 (NCE) - Monthly,SW-P-O365-31-M1M,2,31.2,23.1081290322581,46.22,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Quarry Works,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Quarry Works,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,10,26.4,21.648,216.48,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Quarry Works,Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA) (NCE) - Monthly,SW-P-O365-13-A-M1M,3,14.4,14.4,43.2,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Quarry Works,Microsoft Teams Phone Resource Account (NCE) - Monthly,SW-P-O365-26-A-M1M,3,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Quarry Works,Microsoft Teams Shared Devices (NCE) - Monthly,SW-P-O365-4-M1M,2,9.6,7.872,15.74,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Quarry Works,Teams Phone with Calling Plan (country zone 1 - US) (NCE) - Monthly,SW-P-O365-35-A-M1M,9,20.4,20.4,183.6,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Redwood Realty,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,1,8.4,6.888,6.89,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Timber & Tile,Enterprise Mobility + Security E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-217-M1M,1,3.6,3.42,3.42,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Timber & Tile,Microsoft 365 Business Premium (Nonprofit Staff Pricing) (NCE) - Monthly,SW-P-O365-221-M1M,17,6.6,6.27,106.59,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Timber & Tile,Microsoft Non-profit Segment Activation,SW-P-O365-NCENP,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Azure Plan Usage (Unmanaged) - Azure Plan Usage (Unmanaged),SWAZPLU03,3.06747,1,1,3.07,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Azure Plan - Provision this product to access the Microsoft Azure platform. Contact your account representative for pricing and details.,SWAZPL01,,,,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Enterprise Mobility + Security E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-217-M1M,1,3.24,3.078,3.08,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Enterprise Mobility + Security E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-217-M1M,-1,3.24,2.68083870967742,-2.68,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Enterprise Mobility + Security E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-217-M1M,1,3.6,2.97870967741935,2.98,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft 365 Business Premium (Nonprofit Staff Pricing) (NCE) - Annual paid Monthly,SW-P-O365-221-M1Y,17,5.77,5.4815,93.19,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft 365 Business Premium (Nonprofit Staff Pricing) (NCE) - Annual paid Monthly,SW-P-O365-221-M1Y,-17,5.77,3.53645161290323,-60.12,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft 365 Business Premium (Nonprofit Staff Pricing) (NCE) - Monthly,SW-P-O365-221-M1M,15,6.6,4.65193548387097,69.78,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft 365 E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-224-M1M,15,10.8,10.26,153.9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft 365 E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-224-M1M,-15,10.8,8.93612903225807,-134.04,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft 365 E3 (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-224-M1M,15,11.7,9.6808064516129,145.21,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft Defender Suite (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-153-A-M1M,13,5.76,5.472,71.14,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft Defender Suite (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-153-A-M1M,-3,5.76,4.05987096774193,-12.18,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Microsoft Non-profit Segment Activation,SW-P-O365-NCENP,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Teams Phone with Calling Plan (country zone 1 - US) (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-147-A-M1M,4,15.24,15.24,60.96,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Upland Aviation,Teams Phone with Calling Plan (country zone 1 - US) (Non-Profit Pricing) (NCE) - Monthly,SW-P-O365-147-A-M1M,-1,15.24,11.3070967741936,-11.31,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Azure Information Protection Premium P1 (NCE) - Monthly - Disc.,SW-P-O365-3-M1M,6,2.4,1.968,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Business Apps (free) (NCE) - Monthly,SW-P-O365-4-A-M1M,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 Business Premium (NCE) - Annual paid monthly,SW-P-O365-15-M1Y,13,23.1,18.942,246.25,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,1,15,12.3,12.3,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,-1,15,9.91935483870968,-9.92,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 Business Standard (NCE) - Monthly,SW-P-O365-16-M1M,1,16.8,11.1096774193548,11.11,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 E3 (NCE) - Monthly,SW-P-O365-17-M1M,1,43.2,35.424,35.42,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 E3 (NCE) - Monthly,SW-P-O365-17-M1M,-1,43.2,28.5677419354839,-28.57,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft 365 E3 (NCE) - Monthly,SW-P-O365-17-M1M,1,46.8,30.9483870967742,30.95,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA) (NCE) - Annual paid monthly,SW-P-O365-13-A-M1Y,1,12.6,12.6,12.6,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft Teams Phone Resource Account (NCE) - Monthly,SW-P-O365-26-A-M1M,3,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Microsoft Teams Phone Standard (NCE) - Annual paid monthly,SW-P-O365-25-A-M1Y,1,10.5,8.61,8.61,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Filmhouse Independent,Teams Phone with Calling Plan (country zone 1 - US) (NCE) - Annual paid monthly,SW-P-O365-35-A-M1Y,8,17.85,17.85,142.8,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Saltbox Kitchen,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,1,14.4,11.808,11.81,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Saltbox Kitchen,Microsoft Teams Essentials (NCE) - Annual paid monthly,SW-P-O365-85-M1Y,15,4.2,3.444,51.66,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Saltbox Kitchen,Office 365 E3 (no Teams) (NCE) - Annual paid monthly,SW-P-O365-324-M1Y,48,21.84,17.9088,859.62,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Verdant Farms,Azure Plan,SWAZPL01,1,0,0,0,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,2,14.4,11.808,23.62,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Enterprise Mobility + Security E3 (NCE) - Monthly,SW-P-O365-5-M1M,-1,14.4,5.33264516129032,-5.33,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Exchange Online (Plan 1) (NCE) - Monthly,SW-P-O365-7-M1M,1,4.8,3.936,3.94,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Exchange Online Archiving for Exchange Online (NCE) - Monthly,SW-P-O365-6-A-M1M,1,3.6,2.952,2.95,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Microsoft 365 Apps for business (NCE) - Monthly,SW-P-O365-12-M1M,1,12,9.84,9.84,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,7,26.4,21.648,151.54,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Microsoft 365 Business Premium (NCE) - Monthly,SW-P-O365-15-M1M,-2,26.4,4.18993548387097,-8.38,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,7.2,5.904,5.9,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,-1,7.2,4.57083870967742,-4.57,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Willow Shelter,Microsoft Entra ID P1 (NCE) - Monthly,SW-P-O365-1-M1M,1,8.4,5.33264516129032,5.33,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Tandem Staffing,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,14,8.4,6.888,96.43,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Tandem Staffing,Microsoft 365 Business Basic (NCE) - Monthly,SW-P-O365-14-M1M,-4,8.4,3.77729032258065,-15.11,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Tandem Staffing,Microsoft 365 Business Premium (NCE) - Annual paid monthly,SW-P-O365-15-M1Y,72,23.1,18.942,1363.82,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Tandem Staffing,Planner and Project Plan 3 (NCE) - Monthly,SW-P-O365-39-M1M,1,36,29.52,29.52,USD
+VND-2026-08-0001,2026-08-20,2026-07-21,2026-08-21,Tandem Staffing,Power Automate per user plan (NCE) - Yearly,SW-P-D365-87-Y1Y,1,180,118.627397260274,118.63,USD
